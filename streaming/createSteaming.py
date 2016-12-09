@@ -7,10 +7,10 @@ import optparse
 import boto3
 from dateutil import parser
 #Variables that contains the user credentials to access Twitter API
-access_token = "4922443961-EbKGMQmykIbltcS8stV7HxjO5IssCnQgMy3o2dZ"
-access_token_secret = "UZvr47EmoBXl8tkmCjJihjpYkb3bjjuDMVUnLdXWXQRca"
-consumer_key = "jg55VLQpFIpcU9rbedT9BqOQP"
-consumer_secret = "vlS0vJp1S2lJeHv07vBiWW1wvOVyMKzesM7NO5RMdFMuAeQNQC"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 sqs = boto3.resource('sqs')
 queue = sqs.create_queue(QueueName='TwitterMap')
